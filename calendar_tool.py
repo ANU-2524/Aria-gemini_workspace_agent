@@ -1,12 +1,3 @@
-"""
-calendar_tool.py — Google Calendar operations for the ADK Agent.
-
-Tools:
-  - get_upcoming_events(days)
-  - create_event(title, date, time, duration, description)
-  - check_availability(date)
-"""
-
 from datetime import datetime, timedelta, timezone
 from typing import Any
 

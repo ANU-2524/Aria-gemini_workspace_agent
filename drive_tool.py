@@ -1,12 +1,3 @@
-"""
-drive_tool.py — Google Drive operations for the ADK Agent.
-
-Tools:
-  - search_files(query)
-  - read_file(file_id)
-  - list_recent_files(count)
-"""
-
 import io
 from typing import Any
 

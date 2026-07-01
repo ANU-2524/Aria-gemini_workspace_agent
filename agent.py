@@ -1,10 +1,3 @@
-"""
-agent.py — Google ADK Agent definition with tool registration.
-
-The agent uses Gemini 2.0 Flash via Google AI Studio (free tier).
-All tools are wrappers around the Gmail, Calendar, and Drive modules.
-"""
-
 import os
 import json
 from typing import Any

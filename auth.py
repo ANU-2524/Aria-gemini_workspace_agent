@@ -1,9 +1,3 @@
-"""
-auth.py — Google OAuth2 setup and token management.
-
-Handles OAuth2 flow, token persistence, and auto-refresh.
-"""
-
 import os
 import json
 from pathlib import Path
@@ -15,16 +9,12 @@ from rich.console import Console
 
 console = Console()
 
-# All scopes needed for Gmail, Calendar, and Drive
 SCOPES = [
-    # Gmail
     "https://www.googleapis.com/auth/gmail.readonly",
     "https://www.googleapis.com/auth/gmail.send",
     "https://www.googleapis.com/auth/gmail.modify",
-    # Calendar
     "https://www.googleapis.com/auth/calendar.readonly",
     "https://www.googleapis.com/auth/calendar.events",
-    # Drive
     "https://www.googleapis.com/auth/drive.readonly",
 ]
 

@@ -1,13 +1,3 @@
-"""
-gmail_tool.py — Gmail operations for the ADK Agent.
-
-Tools:
-  - get_latest_emails(count)
-  - search_emails(query)
-  - send_email(to, subject, body)
-  - get_email_body(email_id)
-"""
-
 import base64
 import email as email_lib
 from email.mime.text import MIMEText

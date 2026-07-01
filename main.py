@@ -1,13 +1,3 @@
-"""
-main.py — Entry point for the AI Task Automation Agent CLI.
-
-Features:
-  - Beautiful CLI output using 'rich'
-  - Session memory (conversation history within a session)
-  - Spinner while agent is thinking
-  - Graceful error handling
-  - Exit commands
-"""
 
 import os
 import sys
