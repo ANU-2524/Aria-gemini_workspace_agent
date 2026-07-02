@@ -8,7 +8,9 @@ from google.adk.agents import Agent
 from google.adk.tools import FunctionTool
 from google.oauth2.credentials import Credentials
 
-from tools import gmail_tool, calendar_tool, drive_tool
+import gmail_tool
+import calendar_tool
+import drive_tool
 
 
 # ── Tool wrapper factory ──────────────────────────────────────────────────────
